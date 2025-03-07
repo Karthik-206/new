@@ -1,0 +1,140 @@
+.nav1{
+    padding-bottom: 20px;
+}
+.nav-part1-left ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-between; 
+    width: 60%;
+    cursor:grab;
+}
+.nav-part1-left{
+    height: 30%;
+    display: flex;
+    flex: 70%;
+    
+}
+img{
+    height: 40px;
+    width: 40px;
+    padding-left: 5%;
+}
+.nav-part1-right{
+    flex: 40%;
+    width: 40%;
+    justify-content: flex-end;
+    padding-left: 30%;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-around;
+}
+.nav2{
+    display: flex;
+}
+.nav-part2-left{
+    flex: 40%;
+    width: 40%;
+    padding-left: 4%;
+    background-color: rgb(232, 237, 237);
+}
+.left{
+    text-transform: capitalize;
+    
+}
+.lefthead{
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: x-large;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    width: 40%;
+}
+.leftp{
+    text-transform: capitalize;
+    font-weight: 300;
+    width: 40%;
+}
+
+button{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 19px;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-top-left-radius: 0;
+    cursor: pointer;
+
+}
+.nav-part2-right{
+    display:flex;
+    flex: 60%;
+    height: 500px;
+    white-space:nowarp;
+    overflow-x: auto; 
+    background-color: rgb(232, 237, 237);  
+}
+.imgs{
+    height: 350px;
+    width: 280px;
+    scroll-behavior: smooth;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.nav-part2-right::-webkit-scrollbar{
+    display: none;
+    justify-self: unset;
+}
+.heading{
+    font-weight: bold;
+    font-size: 18px;
+}
+p{
+    margin-left: 40px;
+    
+    
+}
+.product{
+    padding-top: 10px;
+    cursor: pointer;
+    border-color: black;
+    border: groove;
+    background-color: rgb(207, 209, 209);
+    margin-right: 10px;
+}
+.product1{
+    padding-top: 10px;
+    cursor: pointer;
+    border-color: black;
+    border: groove;
+    background-color: rgb(207, 209, 209);
+    margin-right: 10px;
+}
+.product2{
+    padding-top: 10px;
+    cursor: pointer;
+    border-color: black;
+    background-color: rgb(207, 209, 209);    border: groove;
+    margin-right: 10px;
+}
+.product3{
+    margin-right: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    border-color: black;
+    background-color: rgb(207, 209, 209);    border: groove;
+}
+.product4{
+    padding-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-color: black;
+    background-color: rgb(207, 209, 209);
+        border: groove;
+}
+body{
+    background-color: rgb(232, 237, 237);
+}
